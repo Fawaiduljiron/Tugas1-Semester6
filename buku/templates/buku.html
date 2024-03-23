@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+Halaman Utama
+{% endblock %}
+
+{% block content %}
+<h1>Selamat datang di Perpustakaan Online</h1>
+<a href="{% url 'pinjam' %}">Daftar</a> |
+<a href="#">Pinjam Buku</a>
+{% endblock %}
